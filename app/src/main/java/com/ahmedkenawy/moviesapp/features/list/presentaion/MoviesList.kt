@@ -14,13 +14,7 @@ import com.ahmedkenawy.moviesapp.features.list.presentaion.viewmodel.MoviesViewM
 import com.ahmedkenawy.moviesapp.utils.extentions.navigate
 import dagger.hilt.android.AndroidEntryPoint
 
-/**
- * Fragment responsible for displaying a list of movies.
- * It initializes and binds views, sets up view models, and handles events related to movie listing.
- * This fragment extends [BaseFragment] and implements [MoviesListEvent] for event handling.
- *
- * @constructor Creates an instance of [MoviesList].
- */
+
 @AndroidEntryPoint
 class MoviesList : BaseFragment<MoviesListEvent>() {
 

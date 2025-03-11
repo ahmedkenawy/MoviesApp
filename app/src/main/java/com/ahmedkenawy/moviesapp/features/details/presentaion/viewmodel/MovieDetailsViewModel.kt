@@ -15,10 +15,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 
-/**
- * ViewModel responsible for managing data related to movie details.
- * This ViewModel extends [BaseViewModel] and does not handle any specific event type.
- */
+
 @HiltViewModel
 class MovieDetailsViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle,

@@ -11,11 +11,6 @@ import com.ahmedkenawy.moviesapp.R
 import com.ahmedkenawy.moviesapp.databinding.ItemMoviesBinding
 import com.ahmedkenawy.moviesapp.features.list.domain.Movie
 
-/**
- * Adapter for displaying movies in a RecyclerView.
- *
- * @param onMovieClickListener Callback for handling movie item clicks.
- */
 class MoviesAdapter(
     private val onMovieClickListener: (Int, Movie) -> Unit,
     private val addMovieToFavorite: (Int, Int, Boolean) -> Unit
