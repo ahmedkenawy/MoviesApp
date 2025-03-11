@@ -18,7 +18,6 @@ import dagger.hilt.android.AndroidEntryPoint
  */
 @AndroidEntryPoint
 class MovieDetailsScreen : BaseFragment<Any>() {
-
     /**
      * Tag used for logging and debugging purposes.
      */
