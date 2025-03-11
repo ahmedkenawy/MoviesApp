@@ -9,10 +9,7 @@ import com.ahmedkenawy.moviesapp.core.base.BaseActivity
 import com.ahmedkenawy.moviesapp.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
-/**
- * Main entry point of the application.
- * This activity serves as the launcher activity and sets up the main user interface.
- */
+
 @AndroidEntryPoint
 class MainActivity : BaseActivity<Any>() {
     /**
@@ -32,11 +29,6 @@ class MainActivity : BaseActivity<Any>() {
 
     override fun setUpViews() {
         installSplashScreen()
-        // prevent user from taking a screen shot or record the screen
-        window.setFlags(
-            WindowManager.LayoutParams.FLAG_SECURE,
-            WindowManager.LayoutParams.FLAG_SECURE
-        )
         window.statusBarColor = ContextCompat.getColor(this, android.R.color.black)
     }
 
